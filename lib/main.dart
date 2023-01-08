@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Daraz App',
       theme: theme(),
       //home: const SplashScreen(),
       initialRoute: SplashScreen.routeName,
