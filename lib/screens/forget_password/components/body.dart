@@ -38,7 +38,7 @@ class Body extends StatelessWidget {
               SizedBox(
                 height: SizeConfig.screenHeight * 0.1,
               ),
-              ForgotPassForm(),
+              const ForgotPassForm(),
             ],
           ),
         ),
