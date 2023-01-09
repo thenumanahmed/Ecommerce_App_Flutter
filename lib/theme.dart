@@ -32,16 +32,11 @@ InputDecorationTheme inputDecorationTheme() {
 
 AppBarTheme appBarTheme() {
   return const AppBarTheme(
-    color: Colors.white,
-    elevation: 0, //shadow removed
-    brightness: Brightness.light,
+    backgroundColor: Colors.white,
+    elevation: 0,
     iconTheme: IconThemeData(color: Colors.black),
-    textTheme: TextTheme(
-      headline6: TextStyle(
-        color: Color(0xFF8B8B8B),
-        fontSize: 18,
-      ),
-    ),
+    titleTextStyle: TextStyle(color: Color(0xff888888), fontSize: 18),
+    centerTitle: true,
   );
 }
 

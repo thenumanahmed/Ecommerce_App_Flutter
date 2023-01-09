@@ -11,7 +11,7 @@ class SplashScreen extends StatelessWidget {
     SizeConfig().init(context);
     // you have to call it on starting screen
     return const Scaffold(
-      body: body(),
+      body: Body(),
     );  
   }
 }

@@ -7,14 +7,14 @@ import 'package:flutter/material.dart';
 import '../components/splash_content.dart';
 import '../../../components/default_button.dart';
 
-class body extends StatefulWidget {
-  const body({super.key});
+class Body extends StatefulWidget {
+  const Body({super.key});
 
   @override
-  State<body> createState() => _bodyState();
+  State<Body> createState() => _BodyState();
 }
 
-class _bodyState extends State<body> {
+class _BodyState extends State<Body> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
