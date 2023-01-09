@@ -7,14 +7,14 @@ import 'package:flutter/material.dart';
 import '../components/splash_content.dart';
 import '../../../components/default_button.dart';
 
-class body extends StatefulWidget {
-  const body({super.key});
+class Body extends StatefulWidget {
+  const Body({super.key});
 
   @override
-  State<body> createState() => _bodyState();
+  State<Body> createState() => _BodyState();
 }
 
-class _bodyState extends State<body> {
+class _BodyState extends State<Body> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
@@ -96,7 +96,7 @@ class _bodyState extends State<body> {
         height: 6,
         width: currentPage == index ? 20 : 6,
         decoration: BoxDecoration(
-          color: currentPage == index ? kPrimaryColor : Color(0xFFD8D8D8),
+          color: currentPage == index ? kPrimaryColor :const Color(0xFFD8D8D8),
           borderRadius: BorderRadius.circular(3),
         ));
   }
